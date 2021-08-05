@@ -1,0 +1,48 @@
+@media (max-width:767px) {
+    .nav-bar{
+        height: 70px;
+        top: 0;
+        padding: 10px;
+        display: flex;
+        border-bottom: white 4px solid;
+        position: fixed;
+
+    }
+    .header{
+        background-color: black;
+        height: 300px;
+        padding-top: 80px;
+    }
+    .nav-link{
+        color: white;
+        text-decoration: none;
+        font-family: Noto Sans TC;
+    }
+    .nav-link:active{
+        color: white;
+    }
+    li{
+        color: black;
+    }
+    .logo-image{
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        border: white 3px solid;
+    }
+    .tab-pane{
+        color: white;
+    }
+
+    #nav-profile-tab{
+        border: none;
+    }
+    .container-appreciate li{
+        color: white;
+        font-family: Georama;
+    }
+    .container-appreciate h4{
+        color: white;
+        font-family: Titillium Web;
+    }
+}
